@@ -6,26 +6,26 @@
         "type":"ticket",
 
         "button":{
-            "emoji":"🎫 (or leave empty)",
-            "label":"question (or leave empty)",
-            "color":"gray OR red OR green OR blue"
+            "emoji":"🎫",
+            "label":"question",
+            "color":"green"
         },
 
-        "ticketAdmins":["discord role id"],
-        "readonlyAdmins":["discord role id"],
+        "ticketAdmins":["1466828813664260329"],
+        "readonlyAdmins":["1466828813664260329"],
         "allowCreationByBlacklistedUsers":false,
         "questions":["example-question-1","example-question-2"],
 
         "channel":{
-            "prefix":"question-",
-            "suffix":"user-name OR user-id OR random-number OR random-hex OR counter-dynamic OR counter-fixed",
-            "category":"category id (or leave empty)",
-            "closedCategory":"category id (or leave empty)",
-            "backupCategory":"category id (or leave empty)",
+            "prefix":"geral-",
+            "suffix":"random-number",
+            "category":"1296914768552005696",
+            "closedCategory":"1296914768552005696",
+            "backupCategory":"1296914768552005696",
             "claimedCategory":[
-                {"user":"user id","category":"category id"}
+                {"user":"948595752068861972","category":"1466828813664260329"}
             ],
-            "topic":"This is the topic of this ticket channel and is visible to everyone! (or leave empty)"
+            "topic":"ASSUNTO TESTE"
         },
         
         "dmMessage":{
@@ -52,10 +52,10 @@
                 "enabled":true,
                 "title":"Question Ticket",
                 "description":"Thank you for creating a 'Question' ticket in our server!\nOur support team will help you as soon as possible!",
-                "customColor":"#f8ab00 (or leave empty)",
+                "customColor":"#f8ab00",
 
-                "image":"https://www.example.com/image.png (or leave empty)",
-                "thumbnail":"https://www.example.com/image.png (or leave empty)",
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
                 "fields":[
                     {"name":"field name","value":"field value","inline":false}
                 ],
@@ -64,7 +64,7 @@
             "ping":{
                 "@here":true,
                 "@everyone":false,
-                "custom":["discord role id"]
+                "custom":["1466828813664260329"]
             }
         },
         "autoclose":{
@@ -115,12 +115,12 @@
         "button":{
             "emoji":"📢",
             "label":"Update Ping",
-            "color":"gray OR red OR green OR blue"
+            "color":"green"
         },
 
-        "roles":["discord role id"],
-        "mode":"add&remove OR remove OR add",
-        "removeRolesOnAdd":["discord role id"],
+        "roles":["948595752068861972"],
+        "mode": "add&remove",
+        "removeRolesOnAdd":[],
         "addOnMemberJoin":false
     }
 ]
