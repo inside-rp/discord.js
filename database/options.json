@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "category":"opendiscord:used-option",
+        "key":"suporte-geral",
+        "value":{
+            "id":"suporte-geral",
+            "type":"opendiscord:ticket",
+            "version":"v4.1.3",
+            "data":[
+                {"id":"opendiscord:name","value":"Question"},
+                {"id":"opendiscord:description","value":"Dúvidas e ajuda sobre o servidor."},
+                {"id":"opendiscord:button-emoji","value":"🎫"},
+                {"id":"opendiscord:button-label","value":"question"},
+                {"id":"opendiscord:button-color","value":"green"},
+                {"id":"opendiscord:admins","value":["1466828845444370608","1466828818864934953"]},
+                {"id":"opendiscord:admins-readonly","value":["1466828845444370608","1466828818864934953"]},
+                {"id":"opendiscord:allow-blacklisted-users","value":false},
+                {"id":"opendiscord:questions","value":["example-question-1","example-question-2"]},
+                {"id":"opendiscord:channel-prefix","value":"geral-"},
+                {"id":"opendiscord:channel-suffix","value":"random-number"},
+                {"id":"opendiscord:channel-category","value":"1296914768552005696"},
+                {"id":"opendiscord:channel-category-closed","value":"1296914768552005696"},
+                {"id":"opendiscord:channel-category-backup","value":"1296914768552005696"},
+                {"id":"opendiscord:channel-categories-claimed","value":[{"user":"948595752068861972","category":"1466828813664260329"}]},
+                {"id":"opendiscord:channel-topic","value":"ASSUNTO TESTE"},
+                {"id":"opendiscord:dm-message-enabled","value":false},
+                {"id":"opendiscord:dm-message-text","value":"Thank you for creating a ticket in our server! (or leave empty)"},
+                {"id":"opendiscord:dm-message-embed","value":{"enabled":false,"title":"Embed Title! (or leave empty)","description":"Recebemos sua solicitação de suporte. Nossa equipe irá analisar seu ticket e responder assim que possível.","customColor":"#397ae3","image":"https://www.example.com/image.png","thumbnail":"https://www.example.com/image.png","fields":[{"name":"field name","value":"field value","inline":false}],"timestamp":false}},
+                {"id":"opendiscord:ticket-message-enabled","value":true},
+                {"id":"opendiscord:ticket-message-text","value":""},
+                {"id":"opendiscord:ticket-message-embed","value":{"enabled":true,"title":"Pré-atendimento","description":"Recebemos sua solicitação de suporte!\nNossa equipe irá analisar seu ticket e responder assim que possível.","customColor":"#f8ab00","image":"https://www.example.com/image.png","thumbnail":"https://www.example.com/image.png","fields":[{"name":"field name","value":"field value","inline":false}],"timestamp":false}},
+                {"id":"opendiscord:ticket-message-ping","value":{"@here":true,"@everyone":false,"custom":["1466828845444370608","1466828818864934953"]}},
+                {"id":"opendiscord:autoclose-enable-hours","value":false},
+                {"id":"opendiscord:autoclose-enable-leave","value":false},
+                {"id":"opendiscord:autoclose-disable-claim","value":false},
+                {"id":"opendiscord:autoclose-hours","value":24},
+                {"id":"opendiscord:autodelete-enable-days","value":false},
+                {"id":"opendiscord:autodelete-enable-leave","value":false},
+                {"id":"opendiscord:autodelete-disable-claim","value":false},
+                {"id":"opendiscord:autodelete-days","value":7},
+                {"id":"opendiscord:cooldown-enabled","value":false},
+                {"id":"opendiscord:cooldown-minutes","value":10},
+                {"id":"opendiscord:limits-enabled","value":false},
+                {"id":"opendiscord:limits-maximum-global","value":20},
+                {"id":"opendiscord:limits-maximum-user","value":3},
+                {"id":"opendiscord:slowmode-enabled","value":false},
+                {"id":"opendiscord:slowmode-seconds","value":20}
+            ]
+        }
+    }
+]

@@ -1,8 +1,8 @@
 [
     {
-        "id":"example-ticket",
+        "id":"suporte-geral",
         "name":"Question",
-        "description":"Create this ticket if you have a question! (or leave empty)",
+        "description":"Dúvidas e ajuda sobre o servidor.",
         "type":"ticket",
 
         "button":{
@@ -11,8 +11,8 @@
             "color":"green"
         },
 
-        "ticketAdmins":["1466828813664260329"],
-        "readonlyAdmins":["1466828813664260329"],
+        "ticketAdmins":["1466828845444370608", "1466828818864934953"],
+        "readonlyAdmins":["1466828845444370608", "1466828818864934953"],
         "allowCreationByBlacklistedUsers":false,
         "questions":["example-question-1","example-question-2"],
 
@@ -34,11 +34,11 @@
             "embed":{
                 "enabled":false,
                 "title":"Embed Title! (or leave empty)",
-                "description":"Description (or leave empty)",
-                "customColor":"#f8ab00 (or leave empty)",
+                "description":"Recebemos sua solicitação de suporte. Nossa equipe irá analisar seu ticket e responder assim que possível.",
+                "customColor":"#397ae3",
 
-                "image":"https://www.example.com/image.png (or leave empty)",
-                "thumbnail":"https://www.example.com/image.png (or leave empty)",
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
                 "fields":[
                     {"name":"field name","value":"field value","inline":false}
                 ],
@@ -50,8 +50,8 @@
             "text":"",
             "embed":{
                 "enabled":true,
-                "title":"Question Ticket",
-                "description":"Thank you for creating a 'Question' ticket in our server!\nOur support team will help you as soon as possible!",
+                "title":"Pré-atendimento",
+                "description":"Recebemos sua solicitação de suporte!\nNossa equipe irá analisar seu ticket e responder assim que possível.",
                 "customColor":"#f8ab00",
 
                 "image":"https://www.example.com/image.png",
@@ -64,7 +64,7 @@
             "ping":{
                 "@here":true,
                 "@everyone":false,
-                "custom":["1466828813664260329"]
+                "custom":["1466828845444370608", "1466828818864934953"]
             }
         },
         "autoclose":{
@@ -92,35 +92,5 @@
             "enabled":false,
             "slowModeSeconds":20
         }
-    },
-    {
-        "id":"example-website",
-        "name":"Website",
-        "description":"Go to our website.",
-        "type":"website",
-
-        "button":{
-            "emoji":"😃",
-            "label":"Visit our website"
-        },
-
-        "url":"https://www.dj-dj.be"
-    },
-    {
-        "id":"example-role",
-        "name":"Update Ping",
-        "description":"Click here to get notified on updates!",
-        "type":"role",
-
-        "button":{
-            "emoji":"📢",
-            "label":"Update Ping",
-            "color":"green"
-        },
-
-        "roles":["948595752068861972"],
-        "mode": "add&remove",
-        "removeRolesOnAdd":[],
-        "addOnMemberJoin":false
     }
 ]

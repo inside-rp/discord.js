@@ -1,35 +1,35 @@
 [
     {
-        "id":"example-embed",
-        "name":"Example Embed",
-        "dropdown":false,
-        "options":["example-ticket","example-website","example-role"],
+        "id":"suporte-geral",
+        "name":"Suporte Geral",
+        "dropdown":true,
+        "options":["suporte-geral"],
 
         "text":"",
         "embed":{
             "enabled":true,
-            "title":"Tickets:",
-            "description":"Create a ticket by clicking one of the buttons below!",
+            "title":"Central de suporte",
+            "description":"Selecione abaixo a categoria que melhor descreve o seu atendimento para que nossa equipe possa ajudá-lo da forma mais rápida e eficiente.",
             
-            "customColor":"#f8ab00",
-            "url":"https://openticket.dj-dj.be",
+            "customColor":"#397ae3",
+            "url":"",
 
             "image":"https://www.example.com/image.png",
             "thumbnail":"https://www.example.com/image.png",
             
-            "footer":"Open Ticket v4.1.3",
+            "footer":"Inside Roleplay",
             "fields":[
                 {"name":"field name","value":"field value","inline":false}
             ],
             "timestamp":false
         },
         "settings":{
-            "dropdownPlaceholder":"Create a ticket!",
+            "dropdownPlaceholder":"Crie seu ticket!",
 
             "enableMaxTicketsWarningInText":false,
             "enableMaxTicketsWarningInEmbed":true,
 
-            "describeOptionsLayout":"detailed",
+            "describeOptionsLayout":"simple",
             "describeOptionsCustomTitle":"",
             "describeOptionsInText":false,
             "describeOptionsInEmbedFields":true,
