@@ -1,13 +1,13 @@
 [
     {
         "id":"suporte-geral",
-        "name":"Question",
+        "name":"Suporte Geral",
         "description":"Dúvidas e ajuda sobre o servidor.",
         "type":"ticket",
 
         "button":{
-            "emoji":"🎫",
-            "label":"question",
+            "emoji":"📞",
+            "label":"Suporte Geral",
             "color":"green"
         },
 
@@ -17,23 +17,23 @@
         "questions":["example-question-1","example-question-2"],
 
         "channel":{
-            "prefix":"geral-",
+            "prefix":"📞・geral-",
             "suffix":"random-number",
-            "category":"1296914768552005696",
-            "closedCategory":"1296914768552005696",
-            "backupCategory":"1296914768552005696",
+            "category":"1479518668181471272",
+            "closedCategory":"1479518668181471272",
+            "backupCategory":"1479518668181471272",
             "claimedCategory":[
                 {"user":"948595752068861972","category":"1466828813664260329"}
             ],
-            "topic":"ASSUNTO TESTE"
+            "topic":"SUPORTE GERAL"
         },
         
         "dmMessage":{
             "enabled":false,
-            "text":"Thank you for creating a ticket in our server! (or leave empty)",
+            "text":"Obrigado por criar um ticket em nosso servidor!",
             "embed":{
                 "enabled":false,
-                "title":"Embed Title! (or leave empty)",
+                "title":"Abertura de ticket",
                 "description":"Recebemos sua solicitação de suporte. Nossa equipe irá analisar seu ticket e responder assim que possível.",
                 "customColor":"#397ae3",
 
@@ -64,7 +64,195 @@
             "ping":{
                 "@here":true,
                 "@everyone":false,
-                "custom":["1466828845444370608", "1466828818864934953"]
+                "custom":[]
+            }
+        },
+        "autoclose":{
+            "enableInactiveHours":false,
+            "inactiveHours":24,
+            "enableUserLeave":false,
+            "disableOnClaim":false
+        },
+        "autodelete":{
+            "enableInactiveDays":false,
+            "inactiveDays":7,
+            "enableUserLeave":false,
+            "disableOnClaim":false
+        },
+        "cooldown":{
+            "enabled":false,
+            "cooldownMinutes":10
+        },
+        "limits":{
+            "enabled":false,
+            "globalMaximum":20,
+            "userMaximum":3
+        },
+        "slowMode":{
+            "enabled":false,
+            "slowModeSeconds":20
+        }
+    },
+    {
+        "id":"suporte-tecnico",
+        "name":"Suporte Tecnico",
+        "description":"Reporte erros ou problemas técnicos.",
+        "type":"ticket",
+
+        "button":{
+            "emoji":"🛠️",
+            "label":"Suporte Tecnico",
+            "color":"green"
+        },
+
+        "ticketAdmins":["1466828845444370608", "1466828834606153874"],
+        "readonlyAdmins":["1466828845444370608", "1466828834606153874"],
+        "allowCreationByBlacklistedUsers":false,
+        "questions":["example-question-1","example-question-2"],
+
+        "channel":{
+            "prefix":"🛠️・tecnico-",
+            "suffix":"random-number",
+            "category":"1482067753916436491",
+            "closedCategory":"1482067753916436491",
+            "backupCategory":"1482067753916436491",
+            "claimedCategory":[
+                {"user":"948595752068861972","category":"1482067753916436491"}
+            ],
+            "topic":"SUPORTE GERAL"
+        },
+        
+        "dmMessage":{
+            "enabled":false,
+            "text":"Obrigado por criar um ticket em nosso servidor!",
+            "embed":{
+                "enabled":false,
+                "title":"Abertura de ticket",
+                "description":"Recebemos sua solicitação de suporte. Nossa equipe irá analisar seu ticket e responder assim que possível.",
+                "customColor":"#397ae3",
+
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
+                "fields":[
+                    {"name":"field name","value":"field value","inline":false}
+                ],
+                "timestamp":false
+            }
+        },
+        "ticketMessage":{
+            "enabled":true,
+            "text":"",
+            "embed":{
+                "enabled":true,
+                "title":"Pré-atendimento",
+                "description":"Recebemos sua solicitação de suporte!\nNossa equipe irá analisar seu ticket e responder assim que possível.",
+                "customColor":"#f8ab00",
+
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
+                "fields":[
+                    {"name":"field name","value":"field value","inline":false}
+                ],
+                "timestamp":false
+            },
+            "ping":{
+                "@here":true,
+                "@everyone":false,
+                "custom":[]
+            }
+        },
+        "autoclose":{
+            "enableInactiveHours":false,
+            "inactiveHours":24,
+            "enableUserLeave":false,
+            "disableOnClaim":false
+        },
+        "autodelete":{
+            "enableInactiveDays":false,
+            "inactiveDays":7,
+            "enableUserLeave":false,
+            "disableOnClaim":false
+        },
+        "cooldown":{
+            "enabled":false,
+            "cooldownMinutes":10
+        },
+        "limits":{
+            "enabled":false,
+            "globalMaximum":20,
+            "userMaximum":3
+        },
+        "slowMode":{
+            "enabled":false,
+            "slowModeSeconds":20
+        }
+    },
+    {
+        "id":"financeiro-constribuicoes",
+        "name":"Financeiro & Contribuições",
+        "description":"Dúvidas ou problemas com pagamentos e doações.",
+        "type":"ticket",
+
+        "button":{
+            "emoji":"💳",
+            "label":"Financeiro & Contribuições",
+            "color":"green"
+        },
+
+        "ticketAdmins":["1466828845444370608", "1466828813664260329"],
+        "readonlyAdmins":["1466828845444370608", "1466828813664260329"],
+        "allowCreationByBlacklistedUsers":false,
+        "questions":["example-question-1","example-question-2"],
+
+        "channel":{
+            "prefix":"💳・financeiro-",
+            "suffix":"random-number",
+            "category":"1482083191371071488",
+            "closedCategory":"1482083191371071488",
+            "backupCategory":"1482083191371071488",
+            "claimedCategory":[
+                {"user":"948595752068861972","category":"1482083191371071488"}
+            ],
+            "topic":"SUPORTE GERAL"
+        },
+        
+        "dmMessage":{
+            "enabled":false,
+            "text":"Obrigado por criar um ticket em nosso servidor!",
+            "embed":{
+                "enabled":false,
+                "title":"Abertura de ticket",
+                "description":"Recebemos sua solicitação de suporte. Nossa equipe irá analisar seu ticket e responder assim que possível.",
+                "customColor":"#397ae3",
+
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
+                "fields":[
+                    {"name":"field name","value":"field value","inline":false}
+                ],
+                "timestamp":false
+            }
+        },
+        "ticketMessage":{
+            "enabled":true,
+            "text":"",
+            "embed":{
+                "enabled":true,
+                "title":"Pré-atendimento",
+                "description":"Recebemos sua solicitação de suporte!\nNossa equipe irá analisar seu ticket e responder assim que possível.",
+                "customColor":"#f8ab00",
+
+                "image":"https://www.example.com/image.png",
+                "thumbnail":"https://www.example.com/image.png",
+                "fields":[
+                    {"name":"field name","value":"field value","inline":false}
+                ],
+                "timestamp":false
+            },
+            "ping":{
+                "@here":true,
+                "@everyone":false,
+                "custom":[]
             }
         },
         "autoclose":{

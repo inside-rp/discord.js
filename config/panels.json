@@ -3,7 +3,7 @@
         "id":"suporte-geral",
         "name":"Suporte Geral",
         "dropdown":true,
-        "options":["suporte-geral"],
+        "options":["suporte-geral", "suporte-tecnico", "financeiro-constribuicoes"],
 
         "text":"",
         "embed":{
