@@ -14,7 +14,7 @@
         "ticketAdmins":["1466828845444370608", "1466828818864934953"],
         "readonlyAdmins":["1466828845444370608", "1466828818864934953"],
         "allowCreationByBlacklistedUsers":false,
-        "questions":["example-question-1","example-question-2"],
+        "questions":["describe-request"],
 
         "channel":{
             "prefix":"📞・geral-",
@@ -108,7 +108,7 @@
         "ticketAdmins":["1466828845444370608", "1466828834606153874"],
         "readonlyAdmins":["1466828845444370608", "1466828834606153874"],
         "allowCreationByBlacklistedUsers":false,
-        "questions":["example-question-1","example-question-2"],
+        "questions":["describe-request"],
 
         "channel":{
             "prefix":"🛠️・tecnico-",
@@ -202,7 +202,7 @@
         "ticketAdmins":["1466828845444370608", "1466828813664260329"],
         "readonlyAdmins":["1466828845444370608", "1466828813664260329"],
         "allowCreationByBlacklistedUsers":false,
-        "questions":["example-question-1","example-question-2"],
+        "questions":["describe-request"],
 
         "channel":{
             "prefix":"💳・financeiro-",
