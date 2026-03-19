@@ -4,8 +4,8 @@
     {"category":"opendiscord:last-version","key":"opendiscord:transcripts","value":"v2.1.0"},
     {"category":"opendiscord:last-version","key":"opendiscord:livestatus","value":"v2.0.0"},
     {"category":"opendiscord:last-version","key":"opendiscord:last-version","value":"v4.1.3"},
-    {"category":"opendiscord:option-suffix-history","key":"suporte-geral","value":["0622","0811","0568","0552"]},
-    {"category":"opendiscord:option-suffix-history","key":"suporte-tecnico","value":["0794"]},
+    {"category":"opendiscord:option-suffix-history","key":"suporte-geral","value":["0622","0811","0568","0552","0711"]},
+    {"category":"opendiscord:option-suffix-history","key":"suporte-tecnico","value":["0794","0684"]},
     {"category":"opendiscord:option-suffix-history","key":"financeiro-constribuicoes","value":["0783"]},
     {"category":"opendiscord:panel-message","key":"1296914789217603604_1483521158254034944","value":"suporte-geral"}
 ]
